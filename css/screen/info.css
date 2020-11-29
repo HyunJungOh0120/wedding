@@ -16,6 +16,14 @@
 .clock__time {
   font-size: 1rem;
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .info {
   margin-top: 3rem;
@@ -23,6 +31,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  animation: fadeIn 0.2s ease-in;
   /* background-color: var(--white-transparent); */
 }
 
@@ -49,6 +58,25 @@
 .info__guest {
   margin-bottom: 0.7rem;
 }
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-0.2rem);
+    transform: rotateY(60deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.info__guest i {
+  will-change: transform;
+  animation: heartBeat 1s ease-out infinite;
+}
+
 .info__our-name {
   font-size: 1.5rem;
   font-weight: 600;
@@ -65,6 +93,7 @@
 
 .info__place__country {
   font-size: 0.8rem;
+  margin-bottom: 2.5rem;
 }
 
 .more-info {
@@ -76,4 +105,11 @@
   justify-content: space-between;
   padding: 2rem;
   font-size: 1.4rem;
+}
+
+.more-info button {
+  color: var(--white-box);
+  background-color: rgb(248, 78, 112);
+  border: none;
+  border-radius: 3px;
 }
