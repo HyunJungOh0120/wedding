@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    \
+    <title>Wedding-info</title>
+  </head>
+  <body>
+    <div class="background">
+      <img id="top-left" src="picture/redflower.png" />
+      <img id="bottom-right" src="picture/redflower.png" />
+    </div>
+    <div class="main">
+      <div class="js-clock clock-container">
+        <h3 class="clock__title">Time till ROM</h3>
+        <h1 class="clock__time">00:00</h1>
+      </div>
+      <div class="info">
+        <header class="info__title">
+          EAT, DRINK <br />
+          & <br />be "marry"
+        </header>
+        <div class="info__guest">
+          <span>Dear.</span>
+          <span id="guestName">your name</span>
+          <span><i class="fas fa-heart"></i></span>
+        </div>
+        <h4 class="info__invite">
+          We would love you <br />to join us <br />on our wedding day
+        </h4>
+        <h1 class="info__our-name">Aaron Small & HyunJung Oh</h1>
+        <h3 class="info__date">Friday, December 4th at 4 30pm</h3>
+        <h2 class="info__place">
+          ROM <span><img src="picture/rose.png" alt="rose" /></span>
+        </h2>
+        <h3 class="info__place__addr">7 Canning Rise, 179869</h3>
+        <h3 class="info__place__country">Singapore</h3>
+      </div>
+    </div>
+    <div class="more-info">
+      <button class="show-modal">Dinner</button>
+      <button class="show-modal">rom</button>
+    </div>
+    <div class="modal hidden">
+      <button class="close-modal"><i class="fas fa-times"></i></button>
+      <h1 class="modal__title">prive chijmes</h1>
+      <img
+        class="modal__pic"
+        src="https://media-cdn.tripadvisor.com/media/photo-s/18/17/cd/2e/prive-chijmes.jpg"
+        alt="prive chijmes"
+      />
+
+      <span class="modal__subtitle"
+        >Get ready to eat, drink and celebrate!<br /><br />
+        we invite you to check out the menu<br />
+        in advance.<br />
+        make sure you save some room for dessert! (Go for the
+        <span class="red">Aplle & Cinnamon Blondie</span>!)<br />We love
+        it!</span
+      >
+      <span class="modal__address">victoria st, #01-33, singapore, 187996</span>
+      <nav class="modal__nav">
+        <a href="https://www.theprivegroup.com.sg/prive-chijmes">menu</a>
+        <a
+          href="https://www.google.co.kr/maps/place/Priv%C3%A9+Chijmes/@1.2949233,103.8500801,17z/data=!3m1!4b1!4m5!3m4!1s0x31da19a417c917d1:0xb0f02a7b994b740!8m2!3d1.2949233!4d103.8522688?hl=ko"
+          >click for directions</a
+        >
+      </nav>
+    </div>
+    <div class="modal hidden">
+      <button class="close-modal"><i class="fas fa-times"></i></button>
+      <h1 class="modal__title">ROM</h1>
+      <img
+        class="modal__pic"
+        src="https://translationservices-singapore.com/wp-content/uploads/2017/10/Marriage-Certificate-Translation.jpg"
+        alt="rom"
+      />
+
+      <span class="modal__subtitle">Ceremony begins at 4 30pm. </span>
+      <span class="modal__address">7 CANNING RISE, SINGAPORE 179869</span>
+      <nav class="modal__nav">
+        <a
+          href="https://www.google.com/maps/dir/1.3697024,103.9499264/rom/@1.3363372,103.8446304,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x31da19a3d76c3069:0x258fe37c2dadcdb4!2m2!1d103.8479466!2d1.294198"
+          >click for directions</a
+        >
+      </nav>
+    </div>
+    <div class="overlay hidden"></div>
+    <script
+      src="https://kit.fontawesome.com/f5ac9989c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/info.js"></script>
+    <script src="src/modal.js"></script>
+  </body>
+</html>

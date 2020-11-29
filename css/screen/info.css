@@ -1,0 +1,79 @@
+.info {
+  height: 80%;
+}
+
+.clock-container {
+  color: var(--dark-grey);
+  position: absolute;
+  top: 1rem;
+  text-align: center;
+}
+
+.clock__title {
+  font-size: 0.6rem;
+}
+
+.clock__time {
+  font-size: 1rem;
+}
+
+.info {
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: var(--white-transparent); */
+}
+
+.info__title {
+  font-size: 3.6rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.info__invite {
+  font-size: 1rem;
+}
+.info__guest,
+.info__date,
+.info__place,
+.info__place__addr,
+.info__place__country {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.info__guest {
+  margin-bottom: 0.7rem;
+}
+.info__our-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 3rem 0rem;
+}
+.info__place {
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.info__place > span > img {
+  width: 1.4rem;
+}
+
+.info__place__country {
+  font-size: 0.8rem;
+}
+
+.more-info {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 1.4rem;
+}

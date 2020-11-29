@@ -3,16 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Wedding-home</title>
   </head>
   <body>
-    <div class="name-container">
-      <form class="js-form">
-        <input type="text" placeholder="May I have your name, please?" />
-      </form>
-      <h1 class="js-name">Your name</h1>
+    <div class="background">
+      <img id="middle" src="picture/—Pngtree—watercolor flower_838093.png" />
     </div>
+    <div class="main">
+      <div class="our-name">Aaron Small & HyunJung Oh</div>
+      <div class="js-name-container name-container">
+        <form class="js-form name-container__form">
+          <input type="text" placeholder="May I have your name?" />
+        </form>
+        <div class="js-name name-container__name">
+          <span>Your name</span>
+
+          <i class="fas fa-heart fa-sm"></i>
+        </div>
+      </div>
+      <div class="js-invitation invitation not-showing">
+        <a href="info.html">
+          <span class="invitation__content"
+            >We'd like to invite you <br />to our ROM & Dinner!</span
+          >
+          <i class="fas fa-glass-cheers"></i>
+        </a>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/f5ac9989c4.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="src/index.js"></script>
   </body>
 </html>

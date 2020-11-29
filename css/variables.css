@@ -1,0 +1,9 @@
+:root {
+  --white-box: rgba(255, 246, 233, 0.9);
+  --white-transparent: rgba(255, 246, 233, 0.3);
+  --dark-grey: rgb(37, 34, 34);
+  --grey-transparent: rgba(37, 34, 34, 0.3);
+  --heart: rgb(236, 109, 109);
+  --light-pink: rgb(253, 179, 179);
+  --light-grey: rgb(221, 217, 217);
+}

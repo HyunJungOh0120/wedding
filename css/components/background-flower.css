@@ -1,0 +1,30 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#middle {
+  position: absolute;
+  top: 1.8rem;
+}
+
+#top-left {
+  position: absolute;
+  top: -8%;
+  left: -14%;
+  width: 60%;
+  transform: rotate(90deg);
+}
+
+#bottom-right {
+  position: absolute;
+  top: -4%;
+  right: -4%;
+  width: 30%;
+  transform: rotate(90deg);
+}

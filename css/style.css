@@ -1,0 +1,54 @@
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+
+/* /////// components ////////////////////*/
+@import "components/background-flower.css";
+@import "components/modal.css";
+
+/* /////////// screens  ///////////////// */
+@import "screen/home.css";
+@import "screen/info.css";
+
+html {
+  flex-wrap: none;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Cinzel", serif;
+  height: 100vh;
+  background-color: var(--light-grey);
+  position: relative;
+  overflow: auto;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 15px;
+    padding: 0;
+  }
+}
