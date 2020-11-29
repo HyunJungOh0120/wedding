@@ -8,21 +8,6 @@
   justify-content: center;
   align-items: center;
 }
-@keyframes rotate-20-cw {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  50% {
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
-  }
-  100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-}
-
 #middle {
   position: absolute;
   top: 1.8rem;
@@ -34,7 +19,6 @@
   left: -14%;
   width: 60%;
   transform: rotate(90deg);
-  animation: rotate-20-cw 10s ease infinite;
 }
 
 #bottom-right {
@@ -43,5 +27,4 @@
   right: -4%;
   width: 30%;
   transform: rotate(90deg);
-  animation: rotate-20-cw 15s ease-in-out reverse infinite;
 }
