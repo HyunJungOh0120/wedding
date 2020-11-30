@@ -7,7 +7,8 @@ const nameContainer = document.querySelector(".js-name-container"),
   nameWritten = nameBox.querySelector("span"),
   inviteBox = document.querySelector(".js-invitation"),
   inviteSpan = inviteBox.querySelector("span"),
-  btnChange = document.querySelector(".btnChange");
+  btnChange = document.querySelector(".btnChange"),
+  main = document.querySelector(".main");
 
 const USER_LS = "username",
   SHOWING = "showing",
@@ -24,6 +25,12 @@ function paintName(name) {
   btnChange.classList.remove(NOT_SHOWING);
 
   paintInvite();
+
+  if (nameWritten.style.width > main.style.width) {
+    nameWritten.style.fontSize = "2rem";
+  } else {
+    nameWritten.style.fontSize = "3rem";
+  }
 }
 
 function handleSubmit(event) {

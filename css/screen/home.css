@@ -49,6 +49,7 @@
   display: none;
   font-weight: 600;
   font-style: oblique;
+  text-align: center;
 }
 .name-container__name i {
   font-size: 3rem;
@@ -86,7 +87,7 @@
   text-align: center;
   position: absolute;
   bottom: 15%;
-  animation: shake 3s infinite 0.8s;
+  animation: shake 4s infinite 0.8s;
 }
 
 @keyframes tiltWine {
@@ -119,4 +120,11 @@
 
 .not-showing {
   display: none;
+}
+
+.btnChange {
+  background-color: transparent;
+  border: tomato 1px solid;
+  border-radius: 20px;
+  color: brown;
 }
