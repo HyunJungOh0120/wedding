@@ -5,6 +5,7 @@ const nameContainer = document.querySelector(".js-name-container"),
   nameInput = nameForm.querySelector("input"),
   nameBox = nameContainer.querySelector(".js-name"),
   nameWritten = nameBox.querySelector("span"),
+  submitBtn = nameBox.querySelector("button"),
   inviteBox = document.querySelector(".js-invitation"),
   inviteSpan = inviteBox.querySelector("span"),
   btnChange = document.querySelector(".btnChange"),
@@ -43,6 +44,7 @@ function handleSubmit(event) {
 
 function askForName() {
   nameForm.addEventListener("submit", handleSubmit);
+  submitBtn.addEventListener("click", handleSubmit);
 }
 
 function handleName() {

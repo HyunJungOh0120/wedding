@@ -31,7 +31,7 @@
   justify-content: center;
 }
 .name-container__form input {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   border-bottom: var(--light-grey) 0.1rem solid;
   text-align: center;
@@ -41,6 +41,11 @@
 .name-container__form input[type="text"] {
   font-family: "Cinzel", serif;
   color: var(--dark-grey);
+  border-bottom: brown 1px solid;
+}
+.name-container__form button {
+  background-color: transparent;
+  border: none;
 }
 
 .name-container__name {
