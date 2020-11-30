@@ -32,6 +32,7 @@
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 2rem;
+  color: var(--dark-grey);
 }
 
 .info__invite {
@@ -76,6 +77,13 @@
   justify-content: space-between;
   padding: 2rem;
   font-size: 1.4rem;
+}
+
+.show-modal {
+  border-radius: 1rem;
+  border: none;
+  background-color: teal;
+  color: var(--white-box);
 }
 
 .btnHome {

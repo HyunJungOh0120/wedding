@@ -22,10 +22,34 @@
   transform: rotate(90deg);
 }
 
-#bottom-right {
+#top-right {
   position: absolute;
   top: -4%;
   right: -4%;
   width: 30%;
   transform: rotate(90deg);
+}
+
+#bottom-right-leaves {
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  right: 0;
+  opacity: 0.7;
+}
+#bottom-left-leaves {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  left: -10%;
+  opacity: 0.7;
+  transform: rotate(90deg);
+}
+
+#greenleave {
+  position: absolute;
+  width: 50%;
+  left: -20%;
+  top: 27%;
+  transform: rotate(20deg);
 }
