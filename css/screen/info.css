@@ -77,3 +77,11 @@
   padding: 2rem;
   font-size: 1.4rem;
 }
+
+.btnHome {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: transparent;
+  border: none;
+}

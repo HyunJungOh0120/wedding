@@ -18,9 +18,13 @@ function getTime() {
   const m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const s = Math.floor((distance % (1000 * 60)) / 1000);
 
-  clockTime.innerText = `${d}d ${h < 10 ? `0${h}` : `${h}`}h ${
-    m < 10 ? `0${m}` : `${m}`
-  }m ${s < 10 ? `0${s}` : `${s}`}s`;
+  if (weddingInSec === todayInSec) {
+    clockTime.innerText = `Finally! Wedding time!`;
+  } else {
+    clockTime.innerText = `${d}d ${h < 10 ? `0${h}` : `${h}`}h ${
+      m < 10 ? `0${m}` : `${m}`
+    }m ${s < 10 ? `0${s}` : `${s}`}s`;
+  }
 }
 
 function getName() {
